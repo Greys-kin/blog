@@ -3,7 +3,7 @@ $info-color: #1890ff;
 .Article {
   width: 100%;
   max-width: 938px;
-  height: 140px;
+  min-height: 140px;
   background-color: #ffffff;
   border-radius: 5px;
   margin: 0 auto;
@@ -25,6 +25,10 @@ $info-color: #1890ff;
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.tagList {
+  height: auto;
 }
 
 .tag {

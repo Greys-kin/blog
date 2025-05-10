@@ -119,7 +119,6 @@ const UserProfile = () => {
           className="form-control"
           placeholder="Password"
           {...register("password", {
-            required: "Password is required",
             minLength: {
               value: 6,
               message: "Your password needs to be at least 6 characters.",

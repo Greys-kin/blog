@@ -68,7 +68,7 @@ const Article = ({
             <span>{favoritesCount}</span>
           </label>
         </div>
-        <div>
+        <div className={styles.tagList}>
           {tagList &&
             tagList.map((tag, index) => {
               if (!tag.length) return null;
